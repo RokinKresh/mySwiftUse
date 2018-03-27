@@ -10,6 +10,38 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--FourThVC-->
+        <scene sceneID="rRW-IG-rCB">
+            <objects>
+                <viewController id="ZvY-qM-0hS" customClass="TheForthVC" customModule="swiftProjiect" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mbQ-0M-I88">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="aBS-DG-P3k"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="FourThVC" id="5vH-ee-7H9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cp8-fP-Kgx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-969" y="741"/>
+        </scene>
+        <!--third-->
+        <scene sceneID="Cr4-bv-z9P">
+            <objects>
+                <viewController id="hCa-ue-xAH" customClass="TheThirdVC" customModule="swiftProjiect" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pjS-bG-a4m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="V3w-WJ-OUY"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="third" id="k0y-sH-hnN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMo-dt-czW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-17" y="1008"/>
+        </scene>
         <!--secondView-->
         <scene sceneID="syt-Gx-U25">
             <objects>
@@ -54,6 +86,8 @@
                     <connections>
                         <segue destination="ymv-HB-eHN" kind="relationship" relationship="viewControllers" id="w2N-Zk-XQt"/>
                         <segue destination="8Ns-4U-bTp" kind="relationship" relationship="viewControllers" id="l4k-dH-S5S"/>
+                        <segue destination="hCa-ue-xAH" kind="relationship" relationship="viewControllers" id="vm0-TZ-blM"/>
+                        <segue destination="ZvY-qM-0hS" kind="relationship" relationship="viewControllers" id="pCS-dq-sbM"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oqC-qZ-bFh" userLabel="First Responder" sceneMemberID="firstResponder"/>

@@ -10,6 +10,8 @@ import UIKit
 
 class SelflBaseVC: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,5 +27,7 @@ class SelflBaseVC: UIViewController {
     func initializeUserInterface() -> Void {
         
     }
+    
+    
 
 }

@@ -8,8 +8,17 @@
 
 import UIKit
 
-class SecondVC: SelflBaseVC {
+protocol SecondProtocol {
+    var lastUseNumber:Int { get set }
+    
+    
+    func theTestUseMeth()
+}
 
+class SecondVC: SelflBaseVC ,SecondProtocol {
+
+    var lastUseNumber = 30
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -17,6 +26,15 @@ class SecondVC: SelflBaseVC {
         
         self.view.backgroundColor = UIColor.green
     }
-
-
+    
+    
+    override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        super.touchesEnded(touches, with: event)
+        
+        self.theTestUseMeth()
+    }
+    
+    func theTestUseMeth() {
+        print("实现协议方法，")
+    }
 }

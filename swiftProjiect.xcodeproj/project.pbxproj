@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB37E46320635C6B008D3EDC /* TheThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37E46220635C6B008D3EDC /* TheThirdVC.swift */; };
+		AB37E46520635C82008D3EDC /* TheForthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37E46420635C82008D3EDC /* TheForthVC.swift */; };
+		AB37E46820635F4E008D3EDC /* TheSwiftLBPCH.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37E46720635F4E008D3EDC /* TheSwiftLBPCH.swift */; };
+		AB37E46A2063ADC7008D3EDC /* TheForthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB37E4692063ADC7008D3EDC /* TheForthView.swift */; };
+		AB41BBAC205FA7F300DB1C71 /* ItemAddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB41BBAB205FA7F300DB1C71 /* ItemAddView.swift */; };
 		AB5F7D41205F503900223356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F7D40205F503900223356 /* AppDelegate.swift */; };
 		AB5F7D43205F503A00223356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F7D42205F503A00223356 /* ViewController.swift */; };
 		AB5F7D46205F503A00223356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB5F7D44205F503A00223356 /* Main.storyboard */; };
@@ -38,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB37E46220635C6B008D3EDC /* TheThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheThirdVC.swift; sourceTree = "<group>"; };
+		AB37E46420635C82008D3EDC /* TheForthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheForthVC.swift; sourceTree = "<group>"; };
+		AB37E46620635E0A008D3EDC /* LBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBPrefixHeader.pch; sourceTree = "<group>"; };
+		AB37E46720635F4E008D3EDC /* TheSwiftLBPCH.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSwiftLBPCH.swift; sourceTree = "<group>"; };
+		AB37E4692063ADC7008D3EDC /* TheForthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheForthView.swift; sourceTree = "<group>"; };
+		AB41BBAB205FA7F300DB1C71 /* ItemAddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAddView.swift; sourceTree = "<group>"; };
 		AB5F7D3D205F503900223356 /* swiftProjiect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftProjiect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5F7D40205F503900223356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB5F7D42205F503A00223356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +120,8 @@
 				AB5F7D40205F503900223356 /* AppDelegate.swift */,
 				AB5F7D42205F503A00223356 /* ViewController.swift */,
 				AB5F7D6E205F509D00223356 /* BaseTabarVC.swift */,
+				AB37E46620635E0A008D3EDC /* LBPrefixHeader.pch */,
+				AB37E46720635F4E008D3EDC /* TheSwiftLBPCH.swift */,
 				AB5F7D44205F503A00223356 /* Main.storyboard */,
 				AB5F7D47205F503A00223356 /* Assets.xcassets */,
 				AB5F7D49205F503A00223356 /* LaunchScreen.storyboard */,
@@ -150,6 +163,8 @@
 		AB5F7D71205F517700223356 /* thirdView */ = {
 			isa = PBXGroup;
 			children = (
+				AB37E46220635C6B008D3EDC /* TheThirdVC.swift */,
+				AB37E4692063ADC7008D3EDC /* TheForthView.swift */,
 			);
 			path = thirdView;
 			sourceTree = "<group>";
@@ -166,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				AB5F7D75205F519000223356 /* TheFirstVC.swift */,
+				AB41BBAB205FA7F300DB1C71 /* ItemAddView.swift */,
 			);
 			path = firstview;
 			sourceTree = "<group>";
@@ -173,6 +189,7 @@
 		AB5F7D74205F517700223356 /* fourthView */ = {
 			isa = PBXGroup;
 			children = (
+				AB37E46420635C82008D3EDC /* TheForthVC.swift */,
 			);
 			path = fourthView;
 			sourceTree = "<group>";
@@ -319,11 +336,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB37E46320635C6B008D3EDC /* TheThirdVC.swift in Sources */,
 				AB5F7D7B205F569E00223356 /* SelflBaseVC.swift in Sources */,
 				AB5F7D43205F503A00223356 /* ViewController.swift in Sources */,
+				AB37E46A2063ADC7008D3EDC /* TheForthView.swift in Sources */,
+				AB37E46820635F4E008D3EDC /* TheSwiftLBPCH.swift in Sources */,
 				AB5F7D78205F51BF00223356 /* SecondVC.swift in Sources */,
+				AB37E46520635C82008D3EDC /* TheForthVC.swift in Sources */,
 				AB5F7D76205F519000223356 /* TheFirstVC.swift in Sources */,
 				AB5F7D6F205F509D00223356 /* BaseTabarVC.swift in Sources */,
+				AB41BBAC205FA7F300DB1C71 /* ItemAddView.swift in Sources */,
 				AB5F7D41205F503900223356 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +514,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GD634455E3;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/swiftProjiect/LBPrefixHeader.pch";
 				INFOPLIST_FILE = swiftProjiect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = funi.swiftProjiect;
@@ -507,6 +532,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GD634455E3;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/swiftProjiect/LBPrefixHeader.pch";
 				INFOPLIST_FILE = swiftProjiect/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = funi.swiftProjiect;
