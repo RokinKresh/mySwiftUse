@@ -62,7 +62,7 @@ class TheForthVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         tableView.deselectRow(at: indexPath, animated: true)
         
-        print("\(arry[indexPath.row])")
+        print("the selected item\(arry[indexPath.row])")
     }
 
 }

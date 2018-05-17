@@ -51,7 +51,9 @@ class TheFirstVC: SelflBaseVC, ItemAddViewDelegate {
     
     
     func callbackDelegatefuc(backMsg: String) {
-        print(backMsg)
+        
+        TheFirstVC.holurlstring += "321"
+        print(backMsg + TheFirstVC.holurlstring)
     }
     
     

@@ -23,6 +23,11 @@
 		AB5F7D76205F519000223356 /* TheFirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F7D75205F519000223356 /* TheFirstVC.swift */; };
 		AB5F7D78205F51BF00223356 /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F7D77205F51BF00223356 /* SecondVC.swift */; };
 		AB5F7D7B205F569E00223356 /* SelflBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5F7D7A205F569E00223356 /* SelflBaseVC.swift */; };
+		AB823D532069EBAB00D6F68A /* awiftTestImage.png in Resources */ = {isa = PBXBuildFile; fileRef = AB823D522069EBAB00D6F68A /* awiftTestImage.png */; };
+		AB823D56206A1B1E00D6F68A /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB823D55206A1B1E00D6F68A /* ARKit.framework */; };
+		AB823D95206A2B5400D6F68A /* ship.scn in Resources */ = {isa = PBXBuildFile; fileRef = AB823D93206A2B5400D6F68A /* ship.scn */; };
+		AB823D96206A2B5400D6F68A /* texture.png in Resources */ = {isa = PBXBuildFile; fileRef = AB823D94206A2B5400D6F68A /* texture.png */; };
+		ABDAF84D2079B921007D665B /* sakulaImageUse.png in Resources */ = {isa = PBXBuildFile; fileRef = ABDAF84C2079B921007D665B /* sakulaImageUse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +71,11 @@
 		AB5F7D75205F519000223356 /* TheFirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFirstVC.swift; sourceTree = "<group>"; };
 		AB5F7D77205F51BF00223356 /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
 		AB5F7D7A205F569E00223356 /* SelflBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelflBaseVC.swift; sourceTree = "<group>"; };
+		AB823D522069EBAB00D6F68A /* awiftTestImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awiftTestImage.png; sourceTree = "<group>"; };
+		AB823D55206A1B1E00D6F68A /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		AB823D93206A2B5400D6F68A /* ship.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = ship.scn; sourceTree = "<group>"; };
+		AB823D94206A2B5400D6F68A /* texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texture.png; sourceTree = "<group>"; };
+		ABDAF84C2079B921007D665B /* sakulaImageUse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sakulaImageUse.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB823D56206A1B1E00D6F68A /* ARKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +111,7 @@
 				AB5F7D54205F503A00223356 /* swiftProjiectTests */,
 				AB5F7D5F205F503A00223356 /* swiftProjiectUITests */,
 				AB5F7D3E205F503900223356 /* Products */,
+				AB823D54206A1B1D00D6F68A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,6 +134,8 @@
 				AB5F7D6E205F509D00223356 /* BaseTabarVC.swift */,
 				AB37E46620635E0A008D3EDC /* LBPrefixHeader.pch */,
 				AB37E46720635F4E008D3EDC /* TheSwiftLBPCH.swift */,
+				AB823D522069EBAB00D6F68A /* awiftTestImage.png */,
+				ABDAF84C2079B921007D665B /* sakulaImageUse.png */,
 				AB5F7D44205F503A00223356 /* Main.storyboard */,
 				AB5F7D47205F503A00223356 /* Assets.xcassets */,
 				AB5F7D49205F503A00223356 /* LaunchScreen.storyboard */,
@@ -165,6 +179,8 @@
 			children = (
 				AB37E46220635C6B008D3EDC /* TheThirdVC.swift */,
 				AB37E4692063ADC7008D3EDC /* TheForthView.swift */,
+				AB823D93206A2B5400D6F68A /* ship.scn */,
+				AB823D94206A2B5400D6F68A /* texture.png */,
 			);
 			path = thirdView;
 			sourceTree = "<group>";
@@ -200,6 +216,14 @@
 				AB5F7D7A205F569E00223356 /* SelflBaseVC.swift */,
 			);
 			path = BaseCompment;
+			sourceTree = "<group>";
+		};
+		AB823D54206A1B1D00D6F68A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB823D55206A1B1E00D6F68A /* ARKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,9 +333,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDAF84D2079B921007D665B /* sakulaImageUse.png in Resources */,
+				AB823D95206A2B5400D6F68A /* ship.scn in Resources */,
 				AB5F7D4B205F503A00223356 /* LaunchScreen.storyboard in Resources */,
 				AB5F7D48205F503A00223356 /* Assets.xcassets in Resources */,
+				AB823D96206A2B5400D6F68A /* texture.png in Resources */,
 				AB5F7D46205F503A00223356 /* Main.storyboard in Resources */,
+				AB823D532069EBAB00D6F68A /* awiftTestImage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,6 @@ import UIKit
 protocol SecondProtocol {
     var lastUseNumber:Int { get set }
     
-    
     func theTestUseMeth()
 }
 
@@ -25,8 +24,13 @@ class SecondVC: SelflBaseVC ,SecondProtocol {
         // Do any additional setup after loading the view.
         
         self.view.backgroundColor = UIColor.green
+        
+        let testImageView = UIImageView()
+        testImageView.image = getTheSelfPicture(imageStr: "sakulaImageUse")
+        testImageView.frame = CGRect(x: 0, y: 0, width:TheScreenWidth, height:TheScreenWidth)
+        
+        self.view.addSubview(testImageView)
     }
-    
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)

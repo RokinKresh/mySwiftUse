@@ -39,7 +39,7 @@ class ItemAddView: UIView {
     }
     
     @objc func tapped(_ button:UIButton){
-        print(button.title(for: .normal) as Any)
+//        print(button.title(for: .normal) as Any)
         
         if delegate != nil {
             delegate?.callbackDelegatefuc(backMsg: "666")
